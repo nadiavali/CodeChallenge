@@ -3,6 +3,9 @@
 #Your task is to calculate how many blank pages do you need. If n < 0 or m < 0 return 0.
 
 def paperwork(n, m):
-    return n*m
+    if n < 0 or m < 0:
+        return 0
+    else:
+        return n*m
 
-paperwork(5,5) #25
+print(paperwork(5,5)) #25
