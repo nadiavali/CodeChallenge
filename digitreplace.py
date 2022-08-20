@@ -14,3 +14,12 @@ def fake_bin(x):
 
 print(fake_bin('366058562030849490134388085'))
 print('366058562030849490134388085')
+
+# def repl(num_str):
+#     binary = num_str
+#     for i in range(9 + 1):
+#         if i < 5:
+#             binary = binary.replace(str(i), "0")
+#         else:
+#             binary = binary.replace(str(i), "1")
+#     return binary
