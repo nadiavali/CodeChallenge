@@ -25,3 +25,7 @@ class Solution1:
 
 
 
+'''If I skip the step that replaces the first part of nums with the sorted unique elements,
+the function will still return the count of unique elements, but it will not modify the original list.
+The deduplicated and sorted data will be in a separate list (unique_nums), leaving the original list (nums) unchanged.
+This approach sacrifices the in-place modification aspect, which may or may not be suitable depending on the problem requirements.'''
